@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Título que aparecerá en la pestaña del navegador -->
+  <title>NEMS-AI | Studio Engine</title>
+  
+  <!-- Favicon (El pequeño logo en la pestaña del navegador) -->
+  <link rel="icon" type="image/png" href="https://i.imgur.com/3tkWSLT.png">
+  
+  <style>
+    /* Reseteo para asegurar que el iframe ocupe exactamente el 100% de la pantalla sin márgenes */
+    body, html {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden; /* Evita que aparezcan barras de scroll dobles (la del navegador y la del chat) */
+      background-color: #0b0c10; /* El mismo fondo oscuro de NEMS-AI para que la carga sea fluida */
+    }
+
+    /* Configuración del iframe para que sea invisible como contenedor */
+    iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+      display: block;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 
+    ¡ATENCIÓN SOCIO! 
+    Reemplaza la URL en el atributo 'src' por el enlace real de tu Aplicación Web de Google Apps Script 
+    (El enlace que termina en /exec).
+  -->
+  <iframe 
+    src="https://script.google.com/macros/s/AKfycbwYfI_F0AwE49JQwia8ZA7WTjUkkER85Zg0CGXJbF7jpflkq-qAsAvnzWUoAzBbTh74/exec" 
+    title="NEMS-AI Engine"
+    allow="clipboard-read; clipboard-write" 
+    sandbox="allow-scripts allow-same-origin allow-popups allow-forms">
+  </iframe>
+
+</body>
+</html>
